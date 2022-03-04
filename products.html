@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#000000">
+<meta name="description" content="Web Interface For the E.A.T. Grocer Database">
+<title>E.A.T. Grocer Database</title>
+</head>
+
+<body>
+<h1>Products</h1>
+<div id="root">
+	<div class="center"> <a href="index.html">Home</a> </div>
+	<br>
+	<br>
+	<div id="functions">
+		<label>Search</label>
+		<input type="text" placeholder="Product">
+		<input type="submit" value="Search">
+		<br>
+		<br>
+	</div>
+	<table border="1" id="Products">
+	<tr>
+		<th>Product Number</th>
+		<th>Product Name</th>
+		<th>Purchase Price</th>
+		<th>Sell Price</th>
+		<th>Quantity In Stock</th>
+	</tr>
+	<tr>
+		<td>00000000001</td>
+		<td>Homestyle Eggos</td>
+		<td>1.99</td>
+		<td>4.99</td>
+		<td>834</th>
+	</tr>
+	<tr>
+		<td>00000000002</td>
+		<td>Apple-Gala</td>
+		<td>0.30</td>
+		<td>0.50</td>
+		<td>1543</th>
+	</tr>
+	<tr>
+		<td>00000000003</td>
+		<td>Bananas</td>
+		<td>0.15</td>
+		<td>0.50</td>
+		<td>461</th>
+	</tr>
+	</table>
+	<br>
+	<br>
+	
+	<div id="functions">
+		<label>Add a New Product</label>
+		<input type="text" placeholder="Product Name">
+		<input type="text" placeholder="Purchase Price">
+		<input type="text" placeholder="Sell Price">
+		<input type="text" placeholder="Quantity In Stock">
+		<input type="submit" value="Submit">
+		<br>
+		<br>
+		<label>Remove a Product</label>
+		<input type="text" placeholder="Product Number">
+		<input type="submit" value="Submit">
+		<br>
+		<br>
+		<label>Edit a Product</label>
+		<input type="text" placeholder="Product ID">
+		<input type="text" placeholder="Purchase Price">
+		<input type="text" placeholder="Sell Price">
+		<input type="submit" value="Submit">
+	</div>
+</div>
+
+
+</body>
